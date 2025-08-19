@@ -1,6 +1,6 @@
 {
     "fileVersion": 0,
-    "serverMaxRevisionCounter": 95,
+    "serverMaxRevisionCounter": 104,
     "sourceMembers": {
         "CustomField__Booking__c.Room__c": {
             "memberType": "CustomField",
@@ -16,14 +16,14 @@
         },
         "Profile__Admin": {
             "memberType": "Profile",
-            "serverRevisionCounter": 95,
-            "lastRetrievedFromServer": 95,
+            "serverRevisionCounter": 103,
+            "lastRetrievedFromServer": 103,
             "isNameObsolete": false
         },
         "Profile__B2B Reordering Portal Buyer Profile": {
             "memberType": "Profile",
-            "serverRevisionCounter": 60,
-            "lastRetrievedFromServer": 60,
+            "serverRevisionCounter": 104,
+            "lastRetrievedFromServer": 104,
             "isNameObsolete": false
         },
         "CustomObject__Guest__c": {
@@ -204,6 +204,36 @@
             "memberType": "Layout",
             "serverRevisionCounter": 89,
             "lastRetrievedFromServer": 89,
+            "isNameObsolete": false
+        },
+        "ApexClass__GuestController": {
+            "memberType": "ApexClass",
+            "serverRevisionCounter": 98,
+            "lastRetrievedFromServer": 98,
+            "isNameObsolete": false
+        },
+        "LightningComponentBundle__guestList": {
+            "memberType": "LightningComponentBundle",
+            "serverRevisionCounter": 99,
+            "lastRetrievedFromServer": 99,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__guestList/guestList.js": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 100,
+            "lastRetrievedFromServer": 100,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__guestList/guestList.js-meta.xml": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 101,
+            "lastRetrievedFromServer": 101,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__guestList/guestList.html": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 102,
+            "lastRetrievedFromServer": 102,
             "isNameObsolete": false
         }
     }

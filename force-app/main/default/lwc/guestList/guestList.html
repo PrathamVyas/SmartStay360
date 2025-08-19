@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Guest List">
+        <template if:true={guests}>
+            <lightning-datatable
+            key-field="Id"
+            data={guests}
+            columns={columns}
+            hidden-checkbox-column = "true">
+            </lightning-datatable>
+            </template>
+            <template if:true={error}>
+                <p class="slds-text-color_error">{error}</p>
+            </template>
+    </lightning-card>
+</template>
