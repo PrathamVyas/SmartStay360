@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Price_Per_Night__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Available__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

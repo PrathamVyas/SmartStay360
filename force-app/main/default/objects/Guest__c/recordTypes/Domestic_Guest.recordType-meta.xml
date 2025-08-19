@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domestic_Guest</fullName>
+    <active>true</active>
+    <label>Domestic Guest</label>
+    <picklistValues>
+        <picklist>Nationality__c</picklist>
+        <values>
+            <fullName>Indian</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

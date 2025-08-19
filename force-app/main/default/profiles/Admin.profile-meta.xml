@@ -28,7 +28,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Booking__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Guest__c.Nationality__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Guest__c.Phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Room__c.Available__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -48,7 +63,23 @@
         <layout>Guest__c-Guest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Guest__c-Guest Layout</layout>
+        <recordType>Guest__c.Domestic_Guest</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Guest__c-Interational Guest Layout</layout>
+        <recordType>Guest__c.International_Guest</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Room__c-Room Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room__c-Room Layout</layout>
+        <recordType>Room__c.Luxury_Suite</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room__c-Room Layout</layout>
+        <recordType>Room__c.Standard_Room</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -77,6 +108,27 @@
         <object>Room__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Guest__c.Domestic_Guest</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Guest__c.International_Guest</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Room__c.Luxury_Suite</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>Room__c.Standard_Room</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Booking__c</tab>
         <visibility>DefaultOn</visibility>

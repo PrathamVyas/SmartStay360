@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Luxury_Suite</fullName>
+    <active>true</active>
+    <label>Luxury Suite</label>
+    <picklistValues>
+        <picklist>Room_Type__c</picklist>
+        <values>
+            <fullName>Suite</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>
